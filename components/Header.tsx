@@ -16,7 +16,7 @@ export default function Header() {
         </Link>
         
         <div className="relative">
-          <Link className="font-heading" href="/">home</Link>
+          <Link className="font-heading mr-2" href="/">home</Link>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="px-4 py-2 rounded hover:bg-gray-800 transition-colors font-heading"
