@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Random Number Generator',
+  title: 'Random number generator',
   description: 'Generate random numbers within a specified range',
   emoji: '🎲',
   published: true,
