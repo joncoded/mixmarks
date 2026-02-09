@@ -76,7 +76,7 @@ export default function Home() {
           <li>create your own "marks" one-by-one using next.js / react / javascript / html or whatever!</li>
           <li>each mark will contain a metadata file that contains the title, description and visibility on the home page</li>
         </ul>
-        <p className="my-4">Get the code from <a href="https://github.com/joncoded/mixmarks" target="_blank"><button className="rounded-none bg-black dark:bg-white text-white dark:text-black px-4 py-2">GitHub <span aria-hidden="true">🐙</span></button></a></p>
+        <p className="my-4">Get the code from <a href="https://github.com/joncoded/mixmarks" target="_blank"><button className="rounded-none bg-black dark:bg-white text-white dark:text-black px-4 py-2 font-heading">GitHub <span aria-hidden="true">🐙</span></button></a></p>
       </div>      
 
     </div>
