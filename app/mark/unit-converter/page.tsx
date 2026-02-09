@@ -4,7 +4,7 @@ import MarkContainer from "@/components/MarkContainer"
 import { useState } from 'react'
 import { metadata } from './metadata'
 
-type UnitType = 'length' | 'mass' | 'time' | 'temperature' | 'energy' | 'area' | 'volume'
+type UnitType = 'length' | 'mass' | 'time' | 'area' | 'volume'
 
 const conversions = {
   length: {
