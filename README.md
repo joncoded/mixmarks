@@ -2,7 +2,7 @@
 
 a Next.js platform for "marks" (i.e. mini-apps like calculators and generators)
 
-![](./images/screenshot1.png)
+![screenshot of a MixMarks home page](./images/screenshot1.png)
 
 The focus of this project is not on the "marks" themselves but their container as a _portfolio_ (the classic "list and item" solution!)
 
@@ -19,6 +19,10 @@ It's also a great repo to learn about the inner workings of Next.js for those le
 * light / dark / system themes
 * 4 sample marks for inspiration
 
+Sample of a "mark":
+
+![screenshot of a mark](./images/screenshot2.png)
+
 ## Specifications
 
 * front-end frameworks: `next.js` and `tailwind`
@@ -26,7 +30,7 @@ It's also a great repo to learn about the inner workings of Next.js for those le
 
 ## Demo
 
-Run the demo on [mixmarks.joncoded.com](https://mixmarks.joncoded.com) or [mixmarks.vercel.app](https://mixmarks.vercel.app) in case the former doesn't work
+Run the demo on [mixmarks.joncoded.com](https://mixmarks.joncoded.com) or [mixmarks-joncoded.vercel.app](https://mixmarks.vercel.app) in case the former doesn't work
 
 ## Setup (for developers)
 
