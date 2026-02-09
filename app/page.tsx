@@ -69,14 +69,14 @@ export default function Home() {
 
       <h2 className="font-heading text-2xl font-bold mt-12 mb-4">MixMarks (as a platform)</h2>
       
-      <div className="text-xl mb-12 text-gray-600 dark:text-gray-400">
+      <div className="text-lg mb-12 text-gray-600 dark:text-gray-400">
         <p>Feel free to use this as a platform for your own mini-apps: </p>
         <ul className="list-disc ml-6 my-4 space-y-2">
           <li>the home page will automatically list all published "marks" in the /app/mark directory</li>
           <li>create your own "marks" one-by-one using next.js / react / javascript / html or whatever!</li>
           <li>each mark will contain a metadata file that contains the title, description and visibility on the home page</li>
         </ul>
-        <p className="my-4">Get the code from <a href="https://github.com/joncoded/mixmarks" target="_blank"><button className="rounded-none bg-black dark:bg-white text-white dark:text-black px-4 py-2 font-heading">GitHub <span aria-hidden="true">🐙</span></button></a></p>
+        <p className="my-4 text-right">Get the code from <a href="https://github.com/joncoded/mixmarks" target="_blank"><button className="rounded-none bg-black dark:bg-white text-white dark:text-black px-4 py-2 font-heading">GitHub <span aria-hidden="true">🐙</span></button></a></p>
       </div>      
 
     </div>
