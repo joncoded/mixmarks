@@ -26,14 +26,14 @@ export default function Home() {
   const hasMore = displayCount < marks.length
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container max-w-3xl mx-auto px-4 py-12">
 
       <h1 className="font-heading text-5xl font-bold mb-4">MixMarks</h1>
       <p className="text-xl mb-6 md:mb-12 text-gray-600 dark:text-gray-400">
         a Next.js platform for "marks" (i.e. mini-apps like calculators and generators)
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {visibleMarks.map((mark) => (
           <Link
             key={mark.slug}

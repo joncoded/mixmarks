@@ -5,9 +5,9 @@ import Link from 'next/link'
 export function Footer() {  
 
   return (
-    <footer className=" bg-black dark:bg-gray-900/80 backdrop-blur-md border-t   border-gray-200 dark:border-gray-800">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-end justify-between py-10 font-heading">
+    <footer className="bg-black dark:bg-gray-900/80 backdrop-blur-md border-t border-gray-200 dark:border-gray-800">
+      <nav className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row items-end justify-between py-10 font-heading gap-2">
           <div>
             <p>
               <Link 
