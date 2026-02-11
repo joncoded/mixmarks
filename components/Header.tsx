@@ -12,7 +12,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-black text-white z-50">
       <div className="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="font-heading text-xl font-bold hover:opacity-80 transition-opacity">
-          <span aria-hidden="true" className="mr-2">💿</span>MixMarks
+          <span aria-hidden="true" className="mr-2">🏛️</span>MixMarks
         </Link>
         
         <div className="relative">
