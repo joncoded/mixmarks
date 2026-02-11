@@ -26,7 +26,7 @@ export default function Home() {
   const hasMore = displayCount < marks.length
 
   return (
-    <div className="container max-w-3xl mx-auto px-4 py-12">
+    <div className="container max-w-7xl mx-auto px-4 py-12">
 
       <h1 className="font-heading text-5xl font-bold mb-4">MixMarks</h1>
       <p className="text-xl mb-6 md:mb-12 text-gray-600 dark:text-gray-400">

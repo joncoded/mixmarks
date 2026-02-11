@@ -6,7 +6,7 @@ export function Footer() {
 
   return (
     <footer className="bg-black dark:bg-gray-900/80 backdrop-blur-md border-t border-gray-200 dark:border-gray-800">
-      <nav className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           
         <p className="text-2xl text-white font-heading">
           <Link 
