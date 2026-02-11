@@ -50,7 +50,7 @@ export default function RandomNumber() {
             type="number"
             value={min}
             onChange={(e) => setMin(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
@@ -63,7 +63,7 @@ export default function RandomNumber() {
             type="number"
             value={max}
             onChange={(e) => setMax(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
@@ -78,13 +78,13 @@ export default function RandomNumber() {
             min="1"
             max="100"
             onChange={(e) => setCount(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
         <button
           onClick={generate}
-          className="w-full px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors font-heading text-lg"
+          className="w-full px-6 py-3 bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors font-heading text-lg"
         >
           Generate
         </button>

@@ -50,7 +50,7 @@ export default function CompoundInterest() {
             value={principal}
             onChange={(e) => setPrincipal(e.target.value)}
             placeholder="1000"
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
@@ -65,7 +65,7 @@ export default function CompoundInterest() {
             value={rate}
             onChange={(e) => setRate(e.target.value)}
             placeholder="5"
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
@@ -80,7 +80,7 @@ export default function CompoundInterest() {
             value={time}
             onChange={(e) => setTime(e.target.value)}
             placeholder="10"
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
         </div>
 
@@ -92,7 +92,7 @@ export default function CompoundInterest() {
             id="frequency"
             value={frequency}
             onChange={(e) => setFrequency(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           >
             <option value="1">Annually</option>
             <option value="2">Semi-annually</option>
@@ -104,7 +104,7 @@ export default function CompoundInterest() {
 
         <button
           onClick={calculate}
-          className="w-full px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors font-heading text-lg"
+          className="w-full px-6 py-3 bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors font-heading text-lg"
         >
           Calculate
         </button>
@@ -125,7 +125,7 @@ export default function CompoundInterest() {
             <h2 className="font-heading text-lg mb-2 text-gray-600 dark:text-gray-400">
               Total Interest Earned
             </h2>
-            <p className="text-3xl font-heading font-bold text-blue-600 dark:text-blue-400">
+            <p className="text-3xl font-heading font-bold text-orange-600 dark:text-orange-400">
               ${result.interest.toFixed(2)}
             </p>
           </div>

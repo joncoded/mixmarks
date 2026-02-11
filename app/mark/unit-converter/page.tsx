@@ -140,16 +140,16 @@ export default function UnitConverter() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleConvert()}
             placeholder="e.g., 2 miles, 100 grams, 5 hours"
-            className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
           <button
             onClick={handleConvert}
-            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors font-heading"
+            className="px-6 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors font-heading"
           >
             Convert
           </button>
         </div>
-        {error && <p className="mt-2 text-red-500">{error}</p>}
+        {error && <p className="mt-2 text-orange-500">{error}</p>}
       </div>
 
       {results && (

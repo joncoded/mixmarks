@@ -64,7 +64,7 @@ export default function VolumeCalculator() {
             setShape(e.target.value as Shape)
             setResult(null)
           }}
-          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
         >
           <option value="cube">Cube</option>
           <option value="sphere">Sphere</option>
@@ -86,7 +86,7 @@ export default function VolumeCalculator() {
               step="any"
               value={side}
               onChange={(e) => setSide(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
           </div>
         )}
@@ -102,7 +102,7 @@ export default function VolumeCalculator() {
               step="any"
               value={radius}
               onChange={(e) => setRadius(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
           </div>
         )}
@@ -119,7 +119,7 @@ export default function VolumeCalculator() {
                 step="any"
                 value={radius}
                 onChange={(e) => setRadius(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
             <div>
@@ -132,7 +132,7 @@ export default function VolumeCalculator() {
                 step="any"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
           </>
@@ -150,7 +150,7 @@ export default function VolumeCalculator() {
                 step="any"
                 value={length}
                 onChange={(e) => setLength(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
             <div>
@@ -163,7 +163,7 @@ export default function VolumeCalculator() {
                 step="any"
                 value={width}
                 onChange={(e) => setWidth(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
             <div>
@@ -176,7 +176,7 @@ export default function VolumeCalculator() {
                 step="any"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
           </>
@@ -184,7 +184,7 @@ export default function VolumeCalculator() {
 
         <button
           onClick={calculate}
-          className="w-full px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors font-heading text-lg"
+          className="w-full px-6 py-3 bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors font-heading text-lg"
         >
           Calculate
         </button>
